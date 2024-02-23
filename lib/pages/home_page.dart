@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
               textColor: Colors.white,
               child: Text("Success",style: TextStyle(fontSize: 20),),
               onPressed: () {
-               Navigator.pushNamed(context, SuccessfulPage.id);
+               Navigator.pushReplacementNamed(context, SuccessfulPage.id);
               },
             ),
           ),
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
               child: Text("Fallure",style: TextStyle(fontSize: 20),),
               onPressed: () {
 
-                Navigator.pushNamed(context,FallurePage.id);
+                Navigator.pushReplacementNamed(context,FallurePage.id);
 
               },
             ),
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
               child: Text("Gift",style: TextStyle(fontSize: 20),),
               onPressed: () {
 
-                Navigator.pushNamed(context,GiftPage.id);
+                Navigator.pushReplacementNamed(context,GiftPage.id);
 
               },
             ),
